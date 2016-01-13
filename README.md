@@ -5,10 +5,9 @@ Cite Me is a Google Chrome extension currently available on the Chrome Web Store
 
 Inspiration for this project comes from The Trumpweb, a similar extension from the Chrome Web Store that associates actual Donald Trump quotes to his name where it appears onlne. I take no credit for anything related to The Trumpweb.
 
+Link to Chrome Web Store: https://chrome.google.com/webstore/detail/cite-me/ipgjmmognefacookhmhljpeppaaihjpa?utm_source=chrome-ntp-icon
 ### Interface after login
 ![Interface after login](img/Cite me screenshot 1.PNG)
-
-
 
 ### What 'John Smith' may see when logged in
 ![What 'John Smith' may see when logged in](img/Cite me screenshot 4.PNG)
