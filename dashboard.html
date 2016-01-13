@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Logged in</title>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/background.js"></script>
+        <script type="text/javascript" src="js/accountsBG.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/popup.css">
+    </head>
+    <body style="width: 600px">
+        <div style="float: left; width: 175px; height: 300px; overflow: auto;">
+            <div class="menu_block">
+                <h3>Account</h3>
+                <div>
+                    <a href="help.html" target="iframe">Instructions</a>
+                    <br>
+                    <br>
+                    <a href="accountSettings.html" target="iframe">Account Settings</a>
+                    <br>
+                    <br>
+                    <a href="viewQuotes.html" target="iframe">View Your Quotes</a>
+                </div>
+            </div> 
+            <div class="menu_block">
+                <h3>Searches</h3>
+                <div>
+                    <a href="searchForPeople.html" target="iframe">Search for People</a>
+                    <br>
+                    <br>
+                    <a href="searchForGroups.html" target="iframe">Search for Group</a>
+                </div>
+            </div>           
+            <div class="menu_block">
+                <h3>Quotes</h3>
+                <div>
+                    <a href="getQuoteRequests.html" target="iframe">Get Quote Requests</a>
+                    <br>
+                    <br>
+                    <a href="sendQuoteRequest.html" target="iframe">Send Quote Requests</a>
+                </div>
+            </div> 
+            <div class="menu_block">
+                <h3>Groups</h3>
+                <div>
+                    <a href="createGroup.html" target="iframe">Create Group</a>
+                    <br>
+                    <br>
+                    <a href="getGroupInvites.html" target="iframe">Get Group Requests</a>
+                    <br>
+                    <br>
+                    <a href="getGroupRequests.html" target="iframe">Get Group Invites</a>
+                </div>
+            </div>
+        </div>
+    
+        <iframe name="iframe" style="border: none; width: 421px; height: 300px;" src="welcome.html"></iframe>
+      
+        <div style="margin: 25px; display: inline-block;">
+            <button type="button" id="logoutButton" class="button">Log out</button>
+        </div>
+        <div style="position: relative; width: 80%; text-align: right; display: inline-block;">
+            <h3 id="notificationMsg"></h3>
+        </div>
+    </body>
+</html>

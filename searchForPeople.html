@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Search for People</title>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/background.js"></script>
+        <script type="text/javascript" src="js/searchesBG.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+         
+        <link rel="stylesheet" type="text/css" href="css/popup.css">
+    </head>
+    <body>
+        <h1 class="pageHeading">Search for People</h1>
+        <div>
+            <form id="search_for_people_form" method="POST">
+                <input type="hidden" name="botField">
+                <div>
+                    <h3>Person Name</h3>
+                    <input type="text" id="pname" name="personName">            
+                    <br>
+                    <br>
+                    <div style="overflow: auto; height: 100px;">
+                        <h3 class="searchResults"></h3>
+                    </div>   
+                </div>
+            </form>
+            <a href="welcome.html" target="iframe">Back</a>   
+        </div>       
+    </body>
+</html>

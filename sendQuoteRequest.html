@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Send Quote Request</title>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/background.js"></script>
+        <script type="text/javascript" src="js/requestsBG.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/popup.css">
+    </head>
+    <body>
+        <h1 class="pageHeading">Send Quote Request</h1>
+        <div>
+            <form id="select_group_form" method="POST">
+                <input type="hidden" name="botField">
+                <div style="margin: 0px 0px 35px 0px">
+                    <h3>Group Name</h3>
+                    <select id="quotes_group_name_select" name="quotes_group_name_select"></select>
+                </div>
+                <div style="margin: 0px 0px 35px 0px">
+                    <h3>Person Name</h3>
+                    <select id="user_name_select" name="user_name_select"></select>
+                </div>          
+                <div style="margin: 0px 0px 25px 0px">
+                    <h3>Requested Quote</h3>
+                    <input type="text" name="quote_input" id="quote_input">
+                </div>     
+                <input type="submit" name="submit_quote_button" id="submit_quote_button" class="button">
+                <div>
+                    <h3 id="result"></h3>
+                </div>
+                <div>
+                    <a href="welcome.html" target="iframe">Back</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

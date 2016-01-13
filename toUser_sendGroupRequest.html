@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Group Invite</title>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/background.js"></script>
+        <script type="text/javascript" src="js/searchesBG.js"></script>
+        <script type="text/javascript" src="js/requestsBG.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+         
+        <link rel="stylesheet" type="text/css" href="css/popup.css">
+    </head>
+    <body>
+        <h1 class="pageHeading">Invite to a group</h1>
+        <div>
+            <form id="invite_to_group_form" method="POST">
+                <input type="hidden" name="botField">      
+                <div>
+                    <h3>Group Name</h3>
+                    <select name="toUser_groups_group_name_select" id="toUser_groups_group_name_select"></select>     
+                    <br>
+                    <br>
+                    <br>
+                    <input disabled type="submit" id="toUser_group_request_submit">
+                    <br>
+                    <div>
+                        <h4 id="result"></h4>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <a class="back_button" href="searchForPeople.html" target="iframe">Back</a>
+        </div>   
+    </body>
+</html>

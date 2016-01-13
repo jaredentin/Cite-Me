@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Search for People</title>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/background.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+         
+        <link rel="stylesheet" type="text/css" href="css/popup.css">
+    </head>
+    <body style="width: 445px;">
+        <h1 class="pageHeading">Create Account</h1>
+        <div style="text-align: center">
+            <form class="form" id="createAccountForm" method="POST" action="http://54.208.46.230/php/Account/createAccount.php">
+                <div style="margin: 0px 20px 0px 20px">
+                    <h3>Username</h3>
+                    <input type="text" id="newUsername" name="username">
+                </div>
+                <div style="display: inline-block; margin: 0px 20px 0px 20px">
+                    <h3>Password</h3>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div style="display: inline-block;  margin: 0px 20px 0px 20px">
+                    <h3>Confirm Password</h3>
+                    <input type="password" id="confirmPassword" name="confirmPassword">
+                </div>
+                <div style="display: inline-block; margin: 20px 20px 20px 20px">
+                    <h3>First Name (As seen online)</h3>
+                    <input type="text" id="newFirstName" name="firstName">           
+                </div>
+                <div style="display: inline-block;  margin: 20px 20px 20px 20px">
+                    <h3>Last Name (As seen online)</h3>
+                    <input type="text" id="newLastName" name="lastName">
+                </div>
+            </form>
+            <input type="submit" id="createAccountSubmit" name="createAccountSubmit" class="button" value="Create">
+        </div>
+        <div style="margin: 25px; display: inline-block;">
+            <a href="index.html">Back</a>
+        </div>
+        <div style="position: relative; width: 80%; text-align: right; display: inline-block;">
+            <h3 id="createAccountMsg"></h3>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Create Group</title>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/background.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/popup.css">
+    </head>
+    <body>
+        <h1 class="pageHeading">Create a Group</h1>
+        <div>
+            <form id="createGroupForm" method="POST" action="http://54.208.46.230/php/createGroup.php">
+                <div>
+                    <h3>Group Name</h3>
+                    <input type="text" id="groupName" name="groupName">
+                    <br>
+                    <br>        
+                </div>
+                
+            </form>
+            <input type="submit" name="createGroupSubmit" id="createGroupSubmit" class="button">
+            <br>
+            <br>
+            <a style="margin-top: 25px;" href="welcome.html" target="iframe">Back</a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Cite Me</title>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/background.js"></script>
+        <script type="text/javascript" src="js/accountsBG.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/popup.css">
+    </head>
+    <body>
+        <h1 class="pageHeading" style="font-size: 30px">Cite Me</h1>
+        <div>
+            <form class="form" id="signInForm" method="POST" action="http://54.208.46.230/php/Account/login.php">
+                <input type="hidden" name="botField">
+                <div style="margin: 20px 0px 20px 0px">
+                    <h3 style="margin: 0px 0px 5px 0px">Username</h3>
+                    <input type="text" id="uname" name="username">  
+                </div>
+                <div style="margin: 20px 0px 20px 0px">
+                    <h3 style="margin: 0px 0px 5px 0px">Password</h3>
+                    <input type="password" id="pword" name="password">  
+                </div>
+            </form>
+            <input style="margin-top: 0px" value="Login" type="submit" name="signInSubmit" id="signInSubmit" class="button">
+            <br>
+            <br>
+            <a href="createAccount.html">Create Account</a>
+        </div>
+        <h3 id="indexMessage"></h3>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Account Settings</title>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/background.js"></script>
+        <script type="text/javascript" src="js/accountsBG.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+         
+        <link rel="stylesheet" type="text/css" href="css/popup.css">
+    </head>
+    <body>
+        <h1 class="pageHeading">Account Settings</h1>
+        
+        <div>
+            <form class="form" id="changeNameForm" method="POST" action="http://54.208.46.230/php/Account/changeName.php">  
+                <div>
+                    <div style="vertical-align: top;">
+                        <div >
+                            <h3>Change Name</h3>
+                            <input type="text" id="firstName" name="firstName" placeholder="New First Name"> 
+                            <br>
+                            <input type="text" id="lastName" name="lastName" placeholder="New Last Name"> 
+                        </div>
+                    </div>   
+                </div>
+                <br>
+            </form>
+            <input type="submit" id="changeNameSubmit" name="changeNameSubmit" class="button" value="Change Name">
+        </div>
+        <br>
+        
+        <div>
+            <form class="form" id="changePasswordForm" method="POST" action="http://54.208.46.230/php/Account/changePassword.php">  
+                <div>
+                    <div style="vertical-align: top;">
+                        <div >
+                            <h3>Change Password</h3>
+                            <input type="text" id="oldPassword" name="oldPassword" placeholder="Old Password"> 
+                            <br>
+                            <input type="text" id="newPassword" name="newPassword" placeholder="New Password"> 
+                            <br>
+                            <input type="text" id="newPasswordConfirm" name="newPasswordConfirm" placeholder="Confirm Password"> 
+                        </div>
+                    </div>   
+                </div>
+                <br>
+            </form>
+            <input type="submit" id="changePasswordSubmit" name="changePasswordSubmit" class="button" value="Change Password">
+        </div>
+        <div style="margin: 50px 0px 25px 0px" id="submit">        
+            <button type="button" id="deleteAccountButton" class="button">Delete Account</button>
+        </div>
+        <a href="welcome.html" target="iframe">Back</a>    
+    </body>
+</html>
