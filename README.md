@@ -9,5 +9,6 @@ Inspiration for this project comes from The Trumpweb, a similar extension from t
 ![Interface after login](img/Cite me screenshot 1.PNG)
 
 
+
 ### What 'John Smith' may see when logged in
 ![What 'John Smith' may see when logged in](img/Cite me screenshot 4.PNG)
